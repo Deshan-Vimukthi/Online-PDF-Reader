@@ -1,0 +1,145 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(to right,#8ecae6,#219ebc);
+}
+
+.input{
+  height: 30px;
+  width: 50%;
+  border: #0d1b2a solid 2px;
+  background: #0d1b2a66;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin: 10px;
+  color: white;
+  font-weight: 500;
+}
+.button{
+  width: 50%;
+  background: linear-gradient(to right,#ffb703,#fb8500);
+  border-radius: 5px;
+  border-width: 0;
+  padding: 5px 5px 5px 10px;
+  margin: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.login_container{
+  position: absolute;
+  width: 40vw;
+  height: auto;
+  border-radius: 25px;
+  padding: 20px;
+  background: #02304744;
+  top: 20vh;
+  left: 30vw;
+  display: flex;
+  min-height: 400px;
+}
+.describe{
+  margin: 20px 0 20px 20px;
+  flex: 1;
+  background: #02304755;
+  border-radius: 10px 0 0 10px;
+}
+.form{
+  margin: 10px 10px 10px 10px;
+  flex: 1;
+  border-radius: 10px;
+  background: white;
+}
+.button-deactive{
+  width: 50%;
+  background: #02304766;
+  border: #023047 solid 2px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.image{
+  height: 150px;
+  width: 150px;
+}
+
+.image_holder{
+  height: 160px;
+  width: 160px;
+  background: black;
+  border-radius: 10px;
+}
+
+.item_holder{
+  width: 160px;
+  padding: 15px;
+  border-radius: 25px;
+  background: #FFFFFF66;
+  margin: 10px;
+  flex: 1;
+}
+.below{
+  width: 160px;
+  overflow: scroll;
+}
+
+.item_list{
+  position: absolute;
+  width: 60vw;
+  left: 20vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+.profile{
+  width: 50px;
+  height: 50px;
+}
+
+.header{
+  display: flex;
+  padding: 10px;
+  background: linear-gradient(to right,#ffb703,#fb8500);
+  border-radius: 0 0 10px 10px;
+}
+.title{
+  text-align: left;
+  width: 90vw;
+  color: black;
+  padding-left:20px ;
+}
+.logout{
+  margin-left: 10px;
+}
+.upload{
+  margin: 10px;
+}
+
+.input_upload{
+  height: 30px;
+  width: 50%;
+  border: #FFFFFF solid 2px;
+  background: #FFFFFF66;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin: 10px;
+}
+.button_upload{
+  height: 40px;
+  width: 100px;
+  border-width: 0;
+  background: linear-gradient(to right,#ffb703,#fb8500);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin: 10px;
+}
+
+
